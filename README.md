@@ -59,6 +59,24 @@ ConsoleWrap
 Interface:
 IConsole {6ac83d89-6ee7-4e33-8ae6-b257b2e81be8}.
 
+Virheestä päästiin eroon ajamalla uudelleen virtualbox 7.2.4 asennustiedosto ja korjaamalla asennus, jonka jälkeen käynnistettiin host-tietokone uudelleen.
+https://github.com/VirtualBox/virtualbox/issues/303
+
+### Debian:n asennus.
+
+Virtuaalikoneen käynnistyttyä valittiin valikosta Live system (amd64), jonka jälkeen debian käynnistyi ja avasi suoraan ikkunajärjestelmän.
+Työpöydältä valitaan Install debian ja kieleksi valittiin englanti, koska muilla kielillä saattaa olla bugeja.
+
+<img width="1282" height="873" alt="debianLiveInstaller" src="https://github.com/user-attachments/assets/50a3038f-0961-44e0-8214-72ac7c069207" />
+
+Sijainti(Location) valittiin sijainnin mukaan. Region: Europe ja Zone: Helsinki.
+Näppäimistö valittiin Generic 105-key PC ja Suomen(Finnish) default versio, jotta ääkköset toimivat.
+Ositukseksi(partitions) valittiin valikosta Erase disk, joka luo automaattisesti boot, debian ja swap-osiot.
+Käyttäjä(Users) valikossa valittiin nimi, kirjautumis nimi, tietokoneen nimi ja vahva salasana käyttäjälle.
+Tämän jälkeen valittiin asenna(install) debian koneelle.
+
+
+
 
 
 
