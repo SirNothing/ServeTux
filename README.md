@@ -9,12 +9,12 @@ https://www.virtualbox.org/wiki/Downloads
 
 > ## Alustana toimi windows ympäristö
 
->> OS Name	Microsoft Windows 10 Pro
->> Version	10.0.19045 Build 19045
->> System Type	x64-based PC
->> Processor	AMD Ryzen 7 2700X Eight-Core Processor, 3700 Mhz, 8 Core(s), 16 Logical Processor(s)
->> BaseBoard Manufacturer	ASUSTeK COMPUTER INC.
->> BaseBoard Product	PRIME X470-PRO
+>> - OS Name:	Microsoft Windows 10 Pro
+>> - Version:	10.0.19045 Build 19045
+>> - System Type:	x64-based PC
+>> - Processor:	AMD Ryzen 7 2700X Eight-Core Processor, 3700 Mhz, 8 Core(s), 16 Logical Processor(s)
+>> - BaseBoard Manufacturer:	ASUSTeK COMPUTER INC.
+>> - BaseBoard Product:	PRIME X470-PRO
 
 ## Asennus
 
@@ -43,7 +43,7 @@ Avautuvasta ikkunasta määrittelin ensin uudelle virtuaalikoneelle:
 - Sitten loin virtuaalisen tietokoneen.
 
 ### Asetukset ja iso-tiedoston lisäys jälkeenpäin
-** Avasin virtuaalisen tietokoneen asetukset. Sieltä tallennustila(storage), johon määrittelin IDE-ohjaimelle "debianin live image"-tiedoston, ja valitsin rastin ruutuun "Live CD/DVD" **
+Avasin virtuaalisen tietokoneen asetukset. Sieltä tallennustila(storage), johon määrittelin IDE-ohjaimelle "debianin live image"-tiedoston, ja valitsin rastin ruutuun "Live CD/DVD"
 <img width="976" height="614" alt="VBStorageLive" src="https://github.com/user-attachments/assets/e366f663-1668-43d6-9eb7-39ce1379be0a" />
 Verkkoasetuksista(Network) vaihdoin käytössä olevan adapterin NAT-tilasta bridge-tilaksi, jotta virtuaalikone saa oman ip-osoitteen.
 <img width="781" height="388" alt="VBNetworkBridge" src="https://github.com/user-attachments/assets/0a2bfef3-824e-4342-8f1d-27c514b9682c" />
@@ -77,8 +77,11 @@ Työpöydältä valitsin Install debian, ja kieleksi valitsin englanti. Muilla k
 - Käyttäjä(Users) valikossa valitsin nimen, kirjautumis nimen, tietokoneen nimen ja vahva salasana käyttäjälle.
 Tämän jälkeen valitsin asenna(install) debian koneelle ja siellähän sen käynnistyksen jälkeen on.
 
-
-
+### Bonus ohjelma
+tldr - rust käännös - too long didn't read.
+https://tealdeer-rs.github.io/tealdeer/intro.html
+>> sudo apt install tealdeer
+>> <img width="885" height="490" alt="bonus" src="https://github.com/user-attachments/assets/8dd5b192-7ed6-41b6-9b25-1864bcce8539" />
 
 
 
