@@ -37,3 +37,40 @@ websocketd:n latasin ensin kotikansiooni ja purin luomaani websocketD-kansioon, 
 > socat asciinema:n kautta. Yhdistetään telnet-serverille.
 
 ![sw](https://github.com/user-attachments/assets/2a767c11-74c1-4669-93f5-ca1818e0e901)
+
+
+## Linux tiedostojärjestelmästä poimittuja
+
+Kansiot kävin tässä järjestyksessä: /(root), /home/, /home/<user>/, /etc/, /media/, /var/log/ ja valitsin sieltä mielestä tärkeän tiedoston/kansion.
+
+
+
+
+<img width="1397" height="1286" alt="firstHFS" src="https://github.com/user-attachments/assets/55867f5a-3d21-4560-a60b-3cb0be848baa" />
+
+
+
+
+<img width="1383" height="1286" alt="secHFS" src="https://github.com/user-attachments/assets/ec9c92ce-fab1-4ac4-af57-88cd4364a2fd" />
+
+
+
+
+<img width="924" height="1039" alt="lastHFS" src="https://github.com/user-attachments/assets/01b48e73-449a-4231-a7ce-fff32a8875a7" />
+
+
+## Vähä grep:iä ja tietoja putkien kautta.
+
+
+<img width="1148" height="1222" alt="ekalshwgrep" src="https://github.com/user-attachments/assets/30a1a23a-6122-455b-9e09-9a6842ce0cee" />
+
+<img width="1025" height="399" alt="tokalshw" src="https://github.com/user-attachments/assets/b6adff6d-0738-4a6b-b841-95dae0719cef" />
+
+Koneen listauksesta(VB) tärkeimpinä nähtiin, muistin määrä, prosessorin malli, Emolevyn/piirilevyjen mallit(natoma/triton2), jotka hoitavat PCI, ISA/IDE ym. laitteita, voluumit(dev/sda1,2,3), kovalevyn koon. inputteja. 
+
+
+
+
+
+
+
