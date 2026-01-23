@@ -30,11 +30,10 @@ Muut ohjelmat hain paketinhallinnan kautta, mutta websocketd:tä ei löytynyt, j
 
 websocketd:n latasin ensin kotikansiooni ja purin luomaani websocketD-kansioon, josta käsin pääsin ajamaan sitä. Koska en vielä ainakaan päivittänyt sille path-tietoja, jotta muualtakin käsin pääsisi ajamaan ohjelmaa.
 
-
-> wcurl https://github.com/joewalnes/websocketd/releases/download/v0.4.1/websocketd-0.4.1-linux_amd64.zip
-
-> gunzip websocket***.zip -d websocketD
-
+> websocket asciinema:n kautta.
 
 ![doit cart](https://github.com/user-attachments/assets/857926e4-771e-408c-b211-9b2610edb1c0)
 
+> socat asciinema:n kautta. Yhdistetään telnet-serverille.
+
+![sw](https://github.com/user-attachments/assets/2a767c11-74c1-4669-93f5-ca1818e0e901)
