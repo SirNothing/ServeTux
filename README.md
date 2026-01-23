@@ -32,5 +32,9 @@ websocketd:n latasin ensin kotikansiooni ja purin luomaani websocketD-kansioon, 
 
 
 > wcurl https://github.com/joewalnes/websocketd/releases/download/v0.4.1/websocketd-0.4.1-linux_amd64.zip
+
 > gunzip websocket***.zip -d websocketD
+
+
+![doit cart](https://github.com/user-attachments/assets/857926e4-771e-408c-b211-9b2610edb1c0)
 
