@@ -41,7 +41,7 @@ websocketd:n latasin ensin kotikansiooni ja purin luomaani websocketD-kansioon, 
 
 ## Linux tiedostojärjestelmästä poimittuja
 
-Kansiot kävin tässä järjestyksessä: /(root), /home/, /home/<user>/, /etc/, /media/, /var/log/ ja valitsin sieltä mielestä tärkeän tiedoston/kansion.
+Kansiot kävin tässä järjestyksessä: /(root), /home/, /home/user/, /etc/, /media/, /var/log/ ja valitsin sieltä mielestä tärkeän tiedoston/kansion.
 
 
 
@@ -66,7 +66,7 @@ Kansiot kävin tässä järjestyksessä: /(root), /home/, /home/<user>/, /etc/, 
 
 <img width="1025" height="399" alt="tokalshw" src="https://github.com/user-attachments/assets/b6adff6d-0738-4a6b-b841-95dae0719cef" />
 
-Koneen listauksesta(VB) tärkeimpinä nähtiin, muistin määrä, prosessorin malli, Emolevyn/piirilevyjen mallit(natoma/triton2), jotka hoitavat PCI, ISA/IDE ym. laitteita, voluumit(dev/sda1,2,3), kovalevyn koon. inputteja. 
+Koneen listauksesta(VB) tärkeimpinä näin muistin määrän, prosessorin mallin, Emolevyn/piirilevyjen mallit(natoma/triton2), jotka hoitavat PCI, ISA/IDE ym. laitteita, voluumit(dev/sda1,2,3), kovalevyn koon. input-laitteita.
 
 
 
