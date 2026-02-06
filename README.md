@@ -224,9 +224,11 @@ sirnothing@debian-4gb-hel1-1:/var$ cat /etc/apache2/sites-available/900-def.conf
 	</Directory>
 </VirtualHost>
 ```
+
+<img width="938" height="387" alt="curlitApache" src="https://github.com/user-attachments/assets/a2e892fb-0504-48a4-b951-033400ed7b41" />
+
 Ongelmaksi tuli ensiksi def.conf-tiedoston nimessä, kun apache2 valitsee ensimmäisen VH/tiedoston, jos mikään ei vastaa kyselyä. Tässä def.conf oli ivhuolto.conf tiedostoa edellä aakkosissa, joten def.conf VH valittiin ensimmäiseksi.
 Vaihto 900-def.conf ja 100.ivhuolto.conf korjasi tilanteen ja ivhuolto näytetään ensiksi. Tässä tapauksessa, kun näytetään kaikilla domaineilla ivhuolto ja vasta, jos se on pois päältä, niin default-sivut.
-
 
 
 
