@@ -1,5 +1,9 @@
 # Tux going to cloud
 
+> https://terokarvinen.com/linux-palvelimet/
+
+> 6.2.2026
+
 Ostin oman Virtual Private Serverin(vps), johon valikoitui euroopasta > https://www.hetzner.com.
 Valintaan vaikutti sijainti turvallisuuden takia, hinta lompakon takia ja maine molempien takia. Serverit sijaitsevat väitetysti Saksassa, Suomessa, Singaporessa, yhdysvalloissa. Yritys operoi saksasta, joten heihin vaikuttavat saksan/euroopan lait. Servereihin vaikuttaa vielä paikalliset sääntelyt, joten vailtsin omille servereille joko Suomen tai Saksan sijainniksi.
 
