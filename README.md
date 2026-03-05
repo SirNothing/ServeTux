@@ -1,5 +1,9 @@
 # Apache HTTP-server
 
+> https://terokarvinen.com/linux-palvelimet/
+
+> 30.2.2026
+
 Asensin apachen version 2.4 web-serverin linux:lle, joka pyörii virutaalikoneella VirtualBox:n päällä.
 
 ### Alusta
