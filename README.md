@@ -1,4 +1,9 @@
 # Komentokehote
+
+> https://terokarvinen.com/linux-palvelimet/
+
+> 26.1.2026
+
 > Koneena VB:n päällä pyörivä debian linux.
 >> <img width="615" height="557" alt="vmtiedot" src="https://github.com/user-attachments/assets/afaf0232-86fd-4521-b581-a859d804d2b4" />
 
