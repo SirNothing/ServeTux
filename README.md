@@ -1,5 +1,10 @@
 # Linux asennus
 
+> https://terokarvinen.com/linux-palvelimet/
+
+> 16.1.2026
+
+
 Distrona toimi Debian versio 13.3.0.(Xfce ikkunajärjestelmä)
 https://www.debian.org/CD/live/
 
