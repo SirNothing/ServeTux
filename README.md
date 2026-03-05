@@ -1,38 +1,37 @@
-# Let's encrypt - https
+# Scripting with bash
 
-### Alusta
-Linux, debian 13 VirtualBox:lla.
+> https://terokarvinen.com/linux-palvelimet/
+> 5.3.2026
 
+## Alusta
+Debian linux 13, VirtualBox.
 
-### Asennus
-Python3, jos ei ole jo.
+### Hello world kielillä
+Kääntäminen: gcc *.c -o <outfile>: g++ *.cpp -o <outfile> 
+<img width="1019" height="953" alt="scripts" src="https://github.com/user-attachments/assets/fa1a9668-8b92-460f-9fae-111043ceec26" />
 
-> https://wiki.python.org/moin/BeginnersGuide(2f)Download.html
+### Komennon lisääminen kaikille
 
-```sudo apt-get update; sudo apt-get install python3 python3-dev -y```
+Kirjoitetaan scripti valmiiksi. Annetaan oikeudet oikein ja kopioidaan $PATH-polkuun.
 
-certbotin asennus, jonka kautta certifikaatit saadaan.
-Sekä python3-certbot-apache lisäosa, joka huolehtii sertifikaattien hallinnasta ja uusimisesta apachelle.
+*Script* - 
+```
+#!/usr/bin/bash
+date
+if [ "$#" -eq 0 ]
+then
+	echo "Ei argumentteja annettu"
+	whoami
+	exit 1
+fi
+echo "Hello" $1
+```
 
-> https://packages.debian.org/sid/python3-certbot-apache
+*Oikeudet* - user:all, group: +rx, other: +rx.
+```chmod ugo+x tere; chmod g-w tere```
 
-> https://certbot.eff.org/pages/about
+*Siirto* 
+```sudo cp ./tere /usr/local/bin/```
 
-```sudo apt-get install certbot python3-certbot-apache -y```
-
-### Certbot käyttö.
-```sudo certbot --apache --domains example.com,www.example.com```
-
-Itse tein ilman --domains-optiota ja täytin ohjelman kysyessä domainin ja sähköpostin.
-Tämän jälkeen Let's encrypt:ltä sai varmenteen domainille sirnothing.online. Varmenne tulee vain laitetuille domaineille, eikä esimerkiksi alidomaineille.
-Kaikille saadaan wildcard(*):n kautta, tai erikseen dns:än kautta haetut varmenteet. python lisäosa(pip) certbot-dns-<provider>.
-
-<img width="671" height="357" alt="certbotReneweDryrun" src="https://github.com/user-attachments/assets/7b3c5d4a-fae0-4c3c-a76b-84aa6bbfe7f1" />
-
-> https://sirnothing.online
->> [Varmenne sirnothing.online.pdf](https://github.com/user-attachments/files/25762064/Varmenne.sirnothing.online.pdf)
-
-
-> https://www.ssllabs.com/ssltest/index.html
->> [SSL Server Test_ sirnothing.online (Powered by Qualys SSL Labs).pdf](https://github.com/user-attachments/files/25762850/SSL.Server.Test_.sirnothing.online.Powered.by.Qualys.SSL.Labs.pdf)
+<img width="825" height="314" alt="CommAdded" src="https://github.com/user-attachments/assets/86ff3d5c-63d3-47fb-bb2a-419cce76072e" />
 
