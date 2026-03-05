@@ -1,6 +1,7 @@
 # Scripting with bash
 
 > https://terokarvinen.com/linux-palvelimet/
+
 > 5.3.2026
 
 ## Alusta
