@@ -1,5 +1,9 @@
 # Domaini serverille
 
+> https://terokarvinen.com/linux-palvelimet/
+
+> 27.3.2026
+
 Domainin valinnan aloitin palveluntarjoajasta, johon valitsin amerikkalaisen namecheap.com:n, koska otin vain testi domainin halvalla. Muuten varmaan valitsisin Eurooppalaisen palveluntarjoajan.
 > https://www.namecheap.com/
 <img width="1333" height="1259" alt="namecheap com" src="https://github.com/user-attachments/assets/98f3e50c-6194-41c5-95f2-2c0eda3bd9a9" />
